@@ -4,10 +4,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This small package was created as an exercise for the DTU course 22100 R for Bio Data Science in the spring of 2021. It contains functions that can create random DNA sequences, make codons out of DNA sequences, and translate those codons into amino acids.
+This small package was created as an exercise for the DTU course 22100 R for Bio Data Science in the spring of 2021. It contains functions that can create a random DNA sequence, convert DNA sequences into codons, and translate these codons into an amino acid sequence.
 
 ## Installation
-You can install this package with using
+You can install this package using
 ``` r
 remotes::install_github("rforbiodatascience21/2021_group_10_Rpackage")
 ```
