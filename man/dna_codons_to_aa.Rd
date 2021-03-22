@@ -2,13 +2,20 @@
 % Please edit documentation in R/dna_codons_to_aa.R
 \name{dna_codons_to_aa}
 \alias{dna_codons_to_aa}
-\title{R package translating DNA codons to amino acid letters}
+\title{Retrieve amino acid sequence from DNA codons #' 
+\code{dna_codons_to_aa} takes DNA sequence codons and uses 
+\code{std_code_table} to convert three letter DNA codons into a one letter #' amino acid sequence}
 \usage{
 dna_codons_to_aa(codons)
 }
+\arguments{
+\item{codons}{is a string of codons in the format "CAA" "ACA" "TAG"}
+}
 \value{
-None
+a one-letter amino acid sequence where "*" denotes a stop codon
 }
 \description{
-Input DNA sequence codons and retrieve amino acid sequence in one-letter format
+Retrieve amino acid sequence from DNA codons #' 
+\code{dna_codons_to_aa} takes DNA sequence codons and uses 
+\code{std_code_table} to convert three letter DNA codons into a one letter #' amino acid sequence
 }
