@@ -1,2 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^lab08aSimpleRpackage\.Rcheck$
+^lab08aSimpleRpackage.*\.tar\.gz$
+^lab08aSimpleRpackage.*\.tgz$
