@@ -6,7 +6,7 @@ Author: Group 10 of the 22100 R course at DTU, spring 2021
 Maintainer: Package is not maintained
 Description: The package contains functions that can generate random DNA strings,
     divide DNA strings into codons and translate codons into amino acids.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
