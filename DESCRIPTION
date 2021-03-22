@@ -1,6 +1,6 @@
 Package: lab08aSimpleRpackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Converting DNA sequence into amino acid sequence
 Version: 0.1.0
 Author: Group 10 of the 22100 R course at DTU, spring 2021
 Maintainer: Package is not maintained
