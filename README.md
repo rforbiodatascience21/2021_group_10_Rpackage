@@ -11,4 +11,12 @@ You can install this package with using
 ``` r
 remotes::install_github("rforbiodatascience21/2021_group_10_Rpackage")
 ```
+## Example
+To use the function provided by this package, run the following code.
+```r
+library(2021_group_10_Rpackage)
+random_dna()
+mk_codons()
+dna_codons_to_aa()
+```
 
