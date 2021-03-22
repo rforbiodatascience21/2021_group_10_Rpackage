@@ -1,3 +1,10 @@
+#' R package translating DNA codons to amino acid letters
+#'
+#' Input DNA sequence codons and retrieve amino acid sequence in one-letter format
+#'
+#' @return None
+#' @export
+
 dna_codons_to_aa <- function(codons){
   std_code_table <- c("TTT" = "F", "TCT" = "S", "TAT" = "Y", "TGT" = "C",
                       "TTC" = "F", "TCC" = "S", "TAC" = "Y", "TGC" = "C",
